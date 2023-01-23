@@ -1,0 +1,87 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+header{
+    background-color: #2094FF;
+    box-shadow: 0 2px 5px rgb(131, 131, 131);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 32px;
+    height: 70px;
+}
+
+.brand{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.menu{
+    margin-right: -16px
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 16px;
+}
+
+.card{
+    width: 500px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px rgb(131, 131, 131);
+}
+.card-header{
+    font-size: 24px;
+    padding: 16px;
+}
+.card-body{
+    padding: 16px;  
+}
+.card-action{
+    padding: 16px;
+}
+
+.form-input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid silver;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    /* padding: 20px; */
+}
+
+article{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-flex{
+    display: flex;
+}
+.justify-end{
+    justify-content: flex-end;
+}
+.btn{
+    padding: 8px 16px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: #2094FF;
+    color: #ffffff;
+}
